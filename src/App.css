@@ -1,0 +1,129 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu a,
+.menu span,
+.menu button {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.menu span {
+  color: white;
+}
+
+.btn-logout,
+.btn-theme {
+  cursor: pointer;
+}
+
+.search-box input {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.post-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.post-item h3 {
+  margin: 0 0 5px 0;
+}
+
+.post-item a,
+.detail-link,
+.back-btn {
+  color: blue;
+}
+
+.post-detail {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.comment-item {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+
+.form-box {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.btn-submit {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+body.dark-mode .post-item a,
+body.dark-mode .detail-link,
+body.dark-mode .back-btn {
+  color: #6ea8fe;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: #333;
+  color: white;
+}

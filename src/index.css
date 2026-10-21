@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: white;
+}
